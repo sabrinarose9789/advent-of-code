@@ -34,14 +34,12 @@ def compare_list(list1, list2):
             val1 = [val1]
         if type(val2) == int:
             val2 = [val2]
-        k = len(val1)
         if val1 == val2:
             continue
         else:
             return compare_list(val1, val2)
     return True
         
-
 
 def correct_orders(filename):
     indices = 0
