@@ -1,2 +1,3 @@
 # ignore data files
 test_files/
+*.pyc
